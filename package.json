@@ -1,0 +1,41 @@
+{
+  "name": "tdorand-cookie-clicker",
+  "version": "1.0.0",
+  "description": "IIM IWM [DORAND Timothée] Projet Clicker",
+  "author": "Timothée DORAND <tim.dorand@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "@babel/preset-stage-2": "^7.0.0-beta.55",
+    "@babel/register": "^7.0.0-beta.55",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/eslint-config-standard": "^3.0.0-rc.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "browserslist": "^4.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "4.11.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
